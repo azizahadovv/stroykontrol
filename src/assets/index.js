@@ -1,0 +1,1 @@
+export {default as PICTURECITY} from './Picture_City.svg'
