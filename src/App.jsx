@@ -1,11 +1,12 @@
 import React from 'react'
-import { PICTURECITY } from './assets'
+import { Route, Routes } from 'react-router'
+import Home from './Home'
 
 function App() {
   return (
-    <div>
-      <img src={PICTURECITY} alt="" />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 
