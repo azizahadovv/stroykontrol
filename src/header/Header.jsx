@@ -8,7 +8,7 @@ function Header() {
         <div>
             <Navbar />
 
-            <header className='flex flex-col items-center justify-center gap-8'>
+            <header className='flex flex-col items-center justify-center gap-8 w-full max-md:h-[550px] max-lg:h-[650px] xl:h-[810px]  '>
                 <h1 className='text-[#212B31] font-thin text-7xl max-w-6xl text-center max-lg:text-4xl'>Умная доставка материалов для сложных строительных площадок</h1>
 
                 <div className='flex gap-4'>

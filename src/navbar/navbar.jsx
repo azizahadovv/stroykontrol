@@ -5,7 +5,7 @@ import { BUTTON } from '../utils';
 
 function Navbar() {
     return (
-        <nav className='flex items-center justify-around '>
+        <nav className='flex items-center justify-around h-24'>
             {/* Logo qismi */}
             <span className="flex items-center justify-center gap-2">
                 <img src={LOGOSTROYKONTROL} alt="LOGOSTROYKONTROL" />
