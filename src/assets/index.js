@@ -16,3 +16,11 @@ export {default as ITEM4} from './item4.png'
 export {default as ITEM5} from './item5.png'
 export {default as ITEM6} from './item6.png'
 
+
+// Ckroller items
+
+export {default as CEMENTTRUCK} from './cement_truck.png'
+export {default as BUILDERMANAGER} from './builder_manager.png'
+export {default as BUILDERCOMPONY} from './builder_compony.png'
+
+

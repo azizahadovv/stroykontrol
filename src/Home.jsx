@@ -10,6 +10,7 @@ function Home() {
       <PAGES.ConstructionChaos />
       <PAGES.Delivery />
       <PAGES.Advertising />
+      <PAGES.Faqs />
       
     </div>
   );
