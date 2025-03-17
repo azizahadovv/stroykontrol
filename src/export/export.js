@@ -1,4 +1,4 @@
-import { BUILDERCOMPONY, BUILDERMANAGER, CEMENTTRUCK } from "../assets"
+import { BUILDERCOMPONY, BUILDERMANAGER, CEMENTTRUCK, Concrete, Equipment, Facades, Fit_out, Formwork, Mep, Precasts, Scaffolding, WasteRemoval } from "../assets"
 
 const exportNavbarNavigate = [
     {
@@ -57,7 +57,7 @@ const faq_Info = [
     {
         id: 3,
         img: BUILDERCOMPONY,
-        alt:"BUILDERCOMPONY",
+        alt: "BUILDERCOMPONY",
         title: 'Возьмите под контроль данные в режиме реального времени',
         description: "Интеллектуальная отчетность дает вам возможность принимать решения в зависимости от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.",
     },
@@ -65,4 +65,64 @@ const faq_Info = [
 
 
 
-export const exportModul = { exportNavbarNavigate, faq_Info }
+const achievements_Info = [
+    {
+        id: 1,
+        title: 'Бетон',
+        description: 'Поставки бетона точно планируются, а его состояние контролируется, что обеспечивает максимально возможное время для установки.',
+        img: Concrete
+    },
+    {
+        id: 2,
+        title: 'Утилизация отходов',
+        description: 'Отходы контролируются и сортируются, а заполненность контейнеров отслеживается в цифровом виде.',
+        img: WasteRemoval
+    },
+    {
+        id: 3,
+        title: 'Опалубка',
+        description: 'Вся опалубка отслеживается от прибытия до отправления, а ее состояние контролируется, что сводит к минимуму потери и повреждения.',
+        img: Formwork
+    },
+    {
+        id: 4,
+        title: 'Сборные панели',
+        description: 'Сборные панели прибывают по очереди, их хранение на месте отслеживается, а их установка планируется и контролируется.',
+        img: Facades
+    },
+    {
+        id: 5,
+        title: 'Фасады',
+        description: 'Элементы фасада поступают последовательно, их сборка контролируется, а перемещение отслеживается.',
+        img: Precasts
+    },
+    {
+        id: 6,
+        title: 'Отделка',
+        description: 'Материалы поступают точно в срок, маркируются и детально отслеживаются для установки.',
+        img: Fit_out
+    },
+    {
+        id: 7,
+        title: 'Строительные леса',
+        description: 'Строительные леса отслеживаются от получения до хранения, использования и возврата, поэтому всегда ясно, что на месте и где.',
+        img: Scaffolding
+    },
+    {
+        id: 8,
+        title: 'Оборудование',
+        description: 'Оборудование и операторы гарантированно доступны в случае необходимости, а их рабочее состояние отслеживается.',
+        img: Equipment
+    },
+    {
+        id:9,
+        title: 'Электрика и сантехника',
+        description: 'Доставка осуществляется в точной последовательности для сложной установки, что сокращает или устраняет необходимость в хранении.',
+        img: Mep
+    },
+
+
+]
+
+
+export const exportModul = { exportNavbarNavigate, faq_Info,achievements_Info }

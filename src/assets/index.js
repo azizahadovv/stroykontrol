@@ -23,4 +23,15 @@ export {default as CEMENTTRUCK} from './cement_truck.png'
 export {default as BUILDERMANAGER} from './builder_manager.png'
 export {default as BUILDERCOMPONY} from './builder_compony.png'
 
+// Ckroller items
+
+export {default as Concrete} from './Concrete.svg'
+export {default as WasteRemoval} from './Утилизация отходов.svg'
+export {default as Formwork} from './Formwork.svg'
+export {default as Facades} from './Facades.svg'
+export {default as Precasts} from './Precasts.svg'
+export {default as Fit_out} from './Fit-out.svg'
+export {default as Scaffolding} from './Scaffolding.svg'
+export {default as Equipment} from './Equipment.svg'
+export {default as Mep} from './MEP.svg'
 

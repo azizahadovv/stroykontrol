@@ -8,14 +8,14 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-around h-24  sticky top-0 bg-white">
       {/* Logo qismi */}
-      <Link to={'/'} className="flex items-center justify-center gap-2 cursor-pointer">
+      <Link to={'/'} className="flex items-center justify-center gap-2 cursor-pointer no-underline">
         <img src={LOGOSTROYKONTROL} alt="LOGOSTROYKONTROL" />
         <span className="uppercase text-2xl text-[#212B31]">СтройКонтроль</span>
       </Link>
 
       {/* Navbar menyusi */}
-      <div className="flex items-center justify-center gap-5">
-        <ul className="flex items-center justify-end gap-4">
+      <div className="flex items-center justify-center gap-5 ">
+        <ul className="flex items-center justify-end gap-4 max-lg:hidden">
           {exportModul?.exportNavbarNavigate?.map((nav) => {
             return (
               <li key={nav.id}>

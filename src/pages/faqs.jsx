@@ -8,8 +8,8 @@ function Faqs() {
                 <p className='text-center max-w-2xl text-[#72787D]'>СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая информацию и контроль материалов на сложных строительных площадках в режиме реального времени.</p>
             </div>
             {
-                exportModul.faq_Info.map((item) => <div className={`flex items-center justify-evenly flex-wrap my-10 ${item.id !==2 && 'flex-row-reverse'} `}>
-                    <div key={item.id} className='max-w-[600px] flex flex-col items-start gap-3 '>
+                exportModul.faq_Info.map((item) => <div key={item.id} className={`flex items-center justify-evenly flex-wrap my-10 ${item.id !==2 && 'flex-row-reverse'} `}>
+                    <div  className='max-w-[600px] flex flex-col items-start gap-3 '>
                         <h2 className='text-3xl text-[#212B31] leading-7'>{item.title}</h2>
                         <p className='text-[#72787D] text-xl'>{item.description}</p>
                     </div>

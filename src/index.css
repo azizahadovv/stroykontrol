@@ -230,3 +230,24 @@
 .item8 {
         animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
+
+
+
+
+/* ***************************** */
+
+.parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+        .parent {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+    }
+    

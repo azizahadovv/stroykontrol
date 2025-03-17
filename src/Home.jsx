@@ -11,7 +11,7 @@ function Home() {
       <PAGES.Delivery />
       <PAGES.Advertising />
       <PAGES.Faqs />
-      
+      <PAGES.Achievements />
     </div>
   );
 }
