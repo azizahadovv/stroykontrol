@@ -12,6 +12,7 @@ function Home() {
       <PAGES.Advertising />
       <PAGES.Faqs />
       <PAGES.Achievements />
+      <PAGES.Reliability />
     </div>
   );
 }

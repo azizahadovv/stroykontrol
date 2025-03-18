@@ -8,6 +8,8 @@ export {default as CONSTRUCTOR} from './Constructor.svg'
 export {default as MENU} from './menu.png'
 
 export {default as CONSTRUCTOR2} from './construktor2.svg'
+export {default as LEAF} from './leaf.svg'
+export {default as HAND} from './hand.svg'
 
 // Ckroller items
 export {default as ITEM1} from './item1.png'

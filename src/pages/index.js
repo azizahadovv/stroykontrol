@@ -4,6 +4,7 @@ import ConstructionChaos from './Construction_chaos'
 import Advertising from './advertising'
 import Faqs from './faqs'
 import Achievements from './achievements'
+import Reliability from './reliability'
 
 
 export const PAGES = {
@@ -12,5 +13,6 @@ export const PAGES = {
     ConstructionChaos,
     Advertising,
     Faqs,
-    Achievements
+    Achievements,
+    Reliability
 }
