@@ -13,6 +13,7 @@ function Home() {
       <PAGES.Faqs />
       <PAGES.Achievements />
       <PAGES.Reliability />
+      <PAGES.Construction />
     </div>
   );
 }

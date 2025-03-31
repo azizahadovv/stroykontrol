@@ -38,3 +38,16 @@ export {default as Scaffolding} from './Scaffolding.svg'
 export {default as Equipment} from './Equipment.svg'
 export {default as Mep} from './MEP.svg'
 
+// 
+
+export {default as CO2} from './co2.svg'
+export {default as recycling} from './recycling.svg'
+export {default as member} from './member.svg'
+
+// 
+
+export {default as phoneIcon} from './phoneIcon.svg'
+export {default as A1} from './a1.svg'
+export {default as A2} from './a2.svg'
+export {default as A3} from './a3.svg'
+

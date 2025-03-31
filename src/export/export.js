@@ -1,7 +1,22 @@
-import { BUILDERCOMPONY, BUILDERMANAGER, CEMENTTRUCK, Concrete, Equipment, Facades, Fit_out, Formwork, Mep, Precasts, Scaffolding, WasteRemoval } from "../assets"
+import {
+    BUILDERCOMPONY,
+    BUILDERMANAGER,
+    CEMENTTRUCK,
+    CO2,
+    Concrete,
+    Equipment,
+    Facades,
+    Fit_out,
+    Formwork,
+    Mep,
+    Precasts,
+    Scaffolding,
+    WasteRemoval,
+    member,
+    recycling
+} from "../assets"
 
-const exportNavbarNavigate = [
-    {
+const exportNavbarNavigate = [{
         id: 1,
         label: 'Главная',
         url: '#Home',
@@ -39,8 +54,7 @@ const exportNavbarNavigate = [
 ]
 
 
-const faq_Info = [
-    {
+const faq_Info = [{
         id: 1,
         img: CEMENTTRUCK,
         alt: "CEMENTTRUCK",
@@ -65,8 +79,7 @@ const faq_Info = [
 
 
 
-const achievements_Info = [
-    {
+const achievements_Info = [{
         id: 1,
         title: 'Бетон',
         description: 'Поставки бетона точно планируются, а его состояние контролируется, что обеспечивает максимально возможное время для установки.',
@@ -115,7 +128,7 @@ const achievements_Info = [
         img: Equipment
     },
     {
-        id:9,
+        id: 9,
         title: 'Электрика и сантехника',
         description: 'Доставка осуществляется в точной последовательности для сложной установки, что сокращает или устраняет необходимость в хранении.',
         img: Mep
@@ -125,4 +138,34 @@ const achievements_Info = [
 ]
 
 
-export const exportModul = { exportNavbarNavigate, faq_Info,achievements_Info }
+const service = [{
+        id: 1,
+        title: 'Сниженное загрязнение',
+        description: 'При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.',
+        icon: CO2,
+    },
+    {
+        id: 2,
+        title: 'Улучшенное управление отходами',
+        description: 'Упрощается сортировка отходов, автоматизируется утилизация отходов, а поврежденные материалы при необходимости используются повторно, что снижает затраты и стимулирует переработку и повторное использование.',
+        icon: recycling,
+    },
+    {
+        id: 3,
+        title: 'Улучшенное влияние на общество',
+        description: 'Уменьшаются проблемы с дорожным движением и шумовое загрязнение, что улучшает жизнь местного сообщества. Улучшенное обращение с материалами и хранение означает, что рабочие также лучше защищены.',
+        icon: member,
+    },
+]
+
+
+
+
+
+
+export const exportModul = {
+    exportNavbarNavigate,
+    faq_Info,
+    achievements_Info,
+    service
+}

@@ -5,7 +5,7 @@ import Advertising from './advertising'
 import Faqs from './faqs'
 import Achievements from './achievements'
 import Reliability from './reliability'
-
+import Construction from './construction.jsx'
 
 export const PAGES = {
     About,
@@ -14,5 +14,6 @@ export const PAGES = {
     Advertising,
     Faqs,
     Achievements,
-    Reliability
+    Reliability,
+    Construction
 }
